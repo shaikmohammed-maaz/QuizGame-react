@@ -1,0 +1,48 @@
+#resultDiv{
+    height: 680px;
+    width: 550px;
+    border: 2px solid; /* Adjust border width as needed */
+    border-radius: 25px !important;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.892), 0 6px 20px 0 rgb(23, 22, 22);
+    text-align: center;
+    font-family: monospace;
+  }
+
+
+.resultDiv h1{
+margin-top: 6%;
+font-size: 2.5rem;
+}
+.resultDiv p{
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.WrongAnswerReview{
+    margin: auto;
+    margin: 4px, 4px;
+    padding: 4px;
+    background-color: #758d848d;
+    width: 500px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    border-radius: 25px;
+}
+.WrongAnswerReview li{
+    font-weight: bold;
+}
+.WrongAnswerReview div{
+    margin: 5%;
+}
+
+.para{
+    font-size: xx-large;
+    color: green;
+}
+/* .para1{
+    font-size: x-large;
+} */
