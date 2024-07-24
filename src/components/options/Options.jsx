@@ -1,6 +1,6 @@
 import "./Options.css"
 export function Options(props){
-    let id = (props.checkedAnswer===true && (props.uAns===props.text || props.aAns===props.text)) ? (props.aAns===props.text ? "isCorrect" : "isWrong") : "";
+    let id = (props.checkedAnswer===true && (props.uAns===props.text || props.aAns===props.text) && props.uAns !=  "") ? (props.aAns===props.text ? "isCorrect" : "isWrong") : "";
     return(
         <div className="alignment" id={id}>
             <>

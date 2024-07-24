@@ -25,16 +25,17 @@ export function ResultView(props) {
       <p>Here is the review of questions you answered <span className="para1"> wrong </span> or <span className="para1"> skiped </span></p>
 
       <div className="WrongAnswerReview">
-        <h3>Worng Answered :</h3>
-{props.wrongAnswerList == [] ? "No wrong Answers" : <ol>
-            {props.wrongAnswerList.map((i)=>{ return <Review Question = {questionData[i].question} Answer = {questionData[i].answer} />})}
-        </ol> }
 
-        
+        <h3>Worng Answered :</h3>
+        <ol>
+            {props.wrongAnswerList.map((i)=>{ return <Review Question = {questionData[i].question} Answer = {questionData[i].answer} />})}
+        </ol> 
+
         <h3>Skipped :</h3>
         <ol>
             {props.skippedList.map((i)=>{ return <Review Question = {questionData[i].question} Answer = {questionData[i].answer} />})}
         </ol>
+        
       </div>
 
       
